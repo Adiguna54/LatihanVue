@@ -5,7 +5,7 @@
     <div class="flex flex-row gap-32 px-[296px] mb-36">
       <!-- left -->
       <div class="h-[596px] w-full">
-        <img src="/src/images/front.png" alt="about-1" class="h-full object-cover" />
+        <img src="/src/images/front.png" alt="about-1" class="object-cover h-full" />
       </div>
 
       <!-- Right -->
@@ -46,17 +46,17 @@
       <!-- Right -->
       <div class="grid grid-cols-2 gap-40">
         <div>
-          <h1 class="em-title-3 pb-8">20+</h1>
+          <h1 class="pb-8 em-title-3">20+</h1>
           <span class="em-text-2">Year Of experience</span>
         </div>
 
         <div>
-          <h1 class="em-title-3 pb-8">30+</h1>
+          <h1 class="pb-8 em-title-3">30+</h1>
           <span class="em-text-2">Project Done</span>
         </div>
 
         <div>
-          <h1 class="em-title-3 pb-8">10+</h1>
+          <h1 class="pb-8 em-title-3">10+</h1>
           <span class="em-text-2">On-going Project</span>
         </div>
       </div>

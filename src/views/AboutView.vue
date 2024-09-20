@@ -1,10 +1,10 @@
-<script setup>
-import Section1 from "@/components/about/section-1/Section1.vue";
-import Section2 from "@/components/about/section-2/Section2.vue";
+<script setup lang="ts">
+import Section1 from "../components/about/section-1/Section1.vue";
+import Section2 from "../components/about/section-2/Section2.vue";
 </script>
 <template>
-  <div class="about capitalize text-xl text-center mb-8">
-    <h1>This is an about page</h1>
+  <div class="mb-8 text-xl text-center capitalize about">
+    <h1>This is an <span class="font-bold underline">about</span> page</h1>
   </div>
 
   <div>
