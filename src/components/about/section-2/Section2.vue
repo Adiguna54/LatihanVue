@@ -2,7 +2,7 @@
 
 <template>
   <div class="em-section-2">
-    <div class="bg-[#24262B] h-full">
+    <div class="h-full">
       <!-- Top Tittle -->
       <div class="flex flex-col gap-4 text-center">
         <h1 class="title">Vision & Mission</h1>
@@ -14,8 +14,36 @@
       </div>
 
       <!-- Bottom -->
-      <div>
-        <h1>asdasdasd</h1>
+      <div class="flex w-full">
+        <div class="flex flex-row">
+          <div class="flex flex-col gap-8 text-white">
+            <h1 class="font-bold text-7xl">01</h1>
+            <h2 class="text-4xl font-bold">VISION</h2>
+            <p class="w-[366px]">
+              To be the leading light in Indonesia’s investment landscape, guiding
+              collective growth and sustainable development through innovative and
+              high-value projects.
+            </p>
+          </div>
+
+          <div>
+            <img src="/src/images/projects 1.png" alt="" />
+          </div>
+          <!--  -->
+          <div class="flex flex-col gap-8 text-white">
+            <h1 class="font-bold text-7xl">02</h1>
+            <h2 class="text-4xl font-bold">VISION</h2>
+            <p class="w-[366px]">
+              To be the leading light in Indonesia’s investment landscape, guiding
+              collective growth and sustainable development through innovative and
+              high-value projects.
+            </p>
+          </div>
+
+          <div>
+            <img src="/src/images/projects 1.png" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -31,6 +59,6 @@
 }
 
 .em-section-2 {
-  @apply h-full w-full mb-16;
+  @apply h-full w-full mb-16 bg-[#24262B];
 }
 </style>
